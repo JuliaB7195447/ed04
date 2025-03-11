@@ -12,7 +12,7 @@ import java.util.List;
  * @version 1.0 11/03/2025
  * @see Persona
  */
-public class Agenda {
+public class Agenda implements IAgenda {
     private List<Persona> contacts; // Lista de Contacto
 
     /**
