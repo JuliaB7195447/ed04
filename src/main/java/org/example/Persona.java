@@ -9,7 +9,7 @@ import java.util.List;
  * @author CIFP Carlos III
  * @version 1.0 11/03/2025
  */
-class Contacto {
+class Persona {
     private String name; // Nombre del contacto
     private List<String> phones; // Lista de telefonos asignados.
 
@@ -19,7 +19,7 @@ class Contacto {
      * @param name Nombre del contacto.
      * @param phone Numero de telefono del contacto.
      */
-    public Contacto(String name, String phone) {
+    public Persona(String name, String phone) {
         this.setName(name);
         this.setPhones(new ArrayList<>());
         this.getPhones().add(phone);
